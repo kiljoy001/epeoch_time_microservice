@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def show_time():
-    return time.time()
+    return str(time.time())
 
 
 if __name__ == "__main__":
